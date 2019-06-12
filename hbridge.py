@@ -1,4 +1,4 @@
-from gpiozero import PWMOutputDevice
+from gpiozero import PWMOutputDevice, DigitalOutputDevice
 from time import sleep
 
 #///////////////// Define Motor Driver GPIO Pins /////////////////
