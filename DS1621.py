@@ -284,4 +284,4 @@ def main():
     print s.format('Room', *read_degreesC_all_oneshot(i2c_0, Room))
     
 if __name__ == "__main__":
-main()
+    main()
