@@ -3,6 +3,7 @@ from __future__ import print_function
 import datetime
 from DS1621 import *
 import smbus
+import time
 
 def main():
     i2c_1 = smbus.SMBus(1)
@@ -16,5 +17,7 @@ def main():
     print (temp)
 
 if __name__ == '__main__':
-    main()
+    while True:
+        main()
+        time.sleep(0.25)
 
